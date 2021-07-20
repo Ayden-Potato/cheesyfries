@@ -28,20 +28,20 @@ img {
     display: inline-block;
     padding: 1em 2em;
     text-decoration:rgb(0, 177, 94);
-    background-color:goldenrod;
+    background-color:rgb(59, 59, 59);
     color: whitesmoke;
     border-radius: 10px;
 }
 .button:hover {
-    background-color:darkgoldenrod;
+    background-color:rgb(141, 141, 141);
     color: whitesmoke;
 }
 .button.dark {
     color: whitesmoke;
-    background-color:goldenrod;
+    background-color:rgb(59, 59, 59);
 }
 .button.dark:hover {
-    background-color:darkgoldenrod;
+    background-color:rgb(172, 172, 172);
 }
 
 /* header */
