@@ -186,11 +186,7 @@ ul.plainlist {
     list-style: none;
 }
 
-/* header 1 */
-h1.largeh1 {
-    font-size: 5em;
-    margin: 0;
-}
+/* everything under here are all bigger/specific things like buttons or special headers */
 
 /* buttons are larger */
 .buttonlarger {
@@ -211,4 +207,18 @@ h1.largeh1 {
 }
 .button.dark:hover {
     background-color:rgb(0, 0, 0);
+}
+
+/* bigintro */
+h2.bigintro {
+    place-items: center;
+    display: grid;
+    font-size: 3.5em;
+    margin: 0.2;
+}
+
+/* header 1 */
+h1.largeh1 {
+    font-size: 5em;
+    margin: 0;
 }
