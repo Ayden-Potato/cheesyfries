@@ -28,12 +28,12 @@ img {
     display: inline-block;
     padding: 1em 2em;
     text-decoration:rgb(0, 177, 94);
-    background-color:rgb(59, 59, 59);
+    background-color:rgb(143, 178, 207);
     color: whitesmoke;
     border-radius: 10px;
 }
 .button:hover {
-    background-color:rgb(141, 141, 141);
+    background-color:rgb(122, 190, 245);
     color: whitesmoke;
 }
 .button.dark {
@@ -221,4 +221,20 @@ h2.bigintro {
 h1.largeh1 {
     font-size: 5em;
     margin: 0;
+}
+
+/* center all */
+h1, h2, h3, p {
+    /* text-align: center; */
+}
+
+/* narrow container */
+.containersmall {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* small footer */
+.smallfooter {
+    text-align: center;
 }
