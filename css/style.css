@@ -185,3 +185,30 @@ ul.plainlist {
     padding: 0;
     list-style: none;
 }
+
+/* header 1 */
+h1.largeh1 {
+    font-size: 5em;
+    margin: 0;
+}
+
+/* buttons are larger */
+.buttonlarger {
+    display: inline-block;
+    padding: 1em 4em;
+    background-color:rgb(255, 0, 0);
+    color: whitesmoke;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.buttonlarger:hover {
+    background-color:rgb(0, 255, 0);
+    color: rgb(0, 0, 0);
+}
+.button.dark {
+    color: whitesmoke;
+    background-color:rgb(0, 0, 0);
+}
+.button.dark:hover {
+    background-color:rgb(0, 0, 0);
+}
