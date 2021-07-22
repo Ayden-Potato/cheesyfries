@@ -238,3 +238,10 @@ h1, h2, h3, p {
 .smallfooter {
     text-align: center;
 }
+
+.middlescreen {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(0, 164, 230);
+}
